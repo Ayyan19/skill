@@ -1,0 +1,3 @@
+# Academic writing and reporting audit
+
+Check title/abstract consistency, coherent argument, precise terminology, novelty scope, logical section flow, equation/variable definitions, figure caption self-containment, reproducible table notation, consistent decimal places, acronyms at first use, units and limitations. Rewrite only what is supported by evidence; label new prose as a proposal. Distinguish grammatical edits from scientific edits. Preserve author voice and journal citation requirements. Evaluate English/Indonesian terminology, not just fluency. Use journal-specific instructions only if provided or verified current.
