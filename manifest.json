@@ -1,0 +1,114 @@
+{
+  "package": "Hermes + OpenCode Master Skills Pack",
+  "version": "2.1.1",
+  "date": "2026-11-02",
+  "total_skill_capabilities": 16,
+  "layout": {
+    "hermes": "%USERPROFILE%\\.hermes\\skills",
+    "opencode": "%USERPROFILE%\\.config\\opencode\\skills"
+  },
+  "upstream_sources": [
+    {
+      "repository": "obra/superpowers",
+      "ref": "main",
+      "license": "MIT",
+      "skills": [
+        "systematic-debugging",
+        "requesting-code-review",
+        "verification-before-completion",
+        "writing-plans"
+      ],
+      "integration": "selected standalone skills; not the full Superpowers plugin or bootstrap"
+    },
+    {
+      "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "ref": "main",
+      "license": "MIT",
+      "skills": [
+        "context-optimization",
+        "context-compression",
+        "filesystem-context"
+      ],
+      "integration": "selected standalone skills"
+    }
+  ],
+  "original_document_workflows": [
+    "word-document-workflow",
+    "pdf-document-workflow",
+    "spreadsheet-workflow",
+    "presentation-workflow"
+  ],
+  "custom_domain_skills": [
+    "embedded-firmware-reviewer",
+    "kicad-pcb-reviewer",
+    "academic-manuscript-reviewer",
+    "technical-prd-architect",
+    "creative-content-reviewer"
+  ],
+  "all_skill_ids": [
+    "systematic-debugging",
+    "requesting-code-review",
+    "verification-before-completion",
+    "writing-plans",
+    "context-optimization",
+    "context-compression",
+    "filesystem-context",
+    "word-document-workflow",
+    "pdf-document-workflow",
+    "spreadsheet-workflow",
+    "presentation-workflow",
+    "embedded-firmware-reviewer",
+    "kicad-pcb-reviewer",
+    "academic-manuscript-reviewer",
+    "technical-prd-architect",
+    "creative-content-reviewer"
+  ],
+  "local_skill_ids": [
+    "word-document-workflow",
+    "pdf-document-workflow",
+    "spreadsheet-workflow",
+    "presentation-workflow",
+    "embedded-firmware-reviewer",
+    "kicad-pcb-reviewer",
+    "academic-manuscript-reviewer",
+    "technical-prd-architect",
+    "creative-content-reviewer"
+  ],
+  "installer_options": [
+    "SkipHermes",
+    "SkipOpenCode",
+    "Force",
+    "ValidateOnly",
+    "ValidateInstalled",
+    "Install-Hermes-WSL.py (--force for local skills only)"
+  ],
+  "notes": [
+    "Anthropic docx/pdf/xlsx/pptx source-available skills are excluded due to their license restrictions; original interoperable replacements are included.",
+    "The separate quality-first-efficiency companion pack is not counted in these 16 skills.",
+    "Installer resolves Hermes native Windows data home using LOCALAPPDATA\\hermes, WSL/Linux using ~/.hermes, and honors HERMES_HOME overrides."
+  ],
+  "package_counts": {
+    "upstream_skills": 7,
+    "original_document_workflows": 4,
+    "custom_domain_skills": 5,
+    "local_skill_folders": 9
+  },
+  "compact_descriptions": {
+    "systematic-debugging": "Investigate bugs using evidence-led debugging.",
+    "requesting-code-review": "Review code changes for correctness and risks.",
+    "verification-before-completion": "Verify evidence before claiming completion.",
+    "writing-plans": "Write actionable implementation plans.",
+    "context-optimization": "Optimize context use, retrieval, and token budget.",
+    "context-compression": "Compress context into faithful handoff summaries.",
+    "filesystem-context": "Store and retrieve durable project context files.",
+    "word-document-workflow": "Create and validate Word DOCX documents.",
+    "pdf-document-workflow": "Inspect, transform, OCR, and validate PDF files.",
+    "spreadsheet-workflow": "Create and audit XLSX workbooks and CSV data.",
+    "presentation-workflow": "Create and validate PowerPoint PPTX decks.",
+    "embedded-firmware-reviewer": "Review embedded firmware, MCU behavior, and safety.",
+    "kicad-pcb-reviewer": "Audit schematics, PCB layout, DFM, and fabrication.",
+    "academic-manuscript-reviewer": "Audit research methods, data, statistics, and citations.",
+    "technical-prd-architect": "Create and audit technical product requirements.",
+    "creative-content-reviewer": "Review visual design, presentations, and content."
+  }
+}

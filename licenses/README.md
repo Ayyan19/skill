@@ -1,0 +1,1 @@
+Upstream MIT license texts are downloaded from the exact upstream repository archive during installation and copied into each selected upstream skill folder as UPSTREAM-LICENSE.txt. Anthropic document skill license files are intentionally not copied; see docs/source-and-license-notes.md.
