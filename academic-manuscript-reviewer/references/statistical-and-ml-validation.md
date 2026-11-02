@@ -1,0 +1,3 @@
+# Statistical and machine learning validation
+
+Verify metric definitions, formulas, units, aggregation and denominator. For regression distinguish MAE, MSE, RMSE, MAPE and percentage-point errors; beware MAPE at zero. For classification check prevalence, confusion matrix definitions, uncertainty and class imbalance. Check point estimates against confidence intervals or bootstrap intervals, repeated seeds, subject/cell-level uncertainty, paired comparisons and multiple testing. Identify pseudoreplication, overfitting, test-set tuning and cherry-picked best runs. Use baselines on identical splits and data availability. Verify all metric values can follow from the stated confusion matrix or residuals. A low error is not persuasive without a correct evaluation protocol.

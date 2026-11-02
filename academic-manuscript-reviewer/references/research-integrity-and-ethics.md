@@ -1,0 +1,3 @@
+# Research integrity and ethics
+
+Flag anomalies for author investigation with evidence and neutral wording. Do not accuse of misconduct based solely on suspicious patterns. Check provenance, duplications, ethical oversight, data sharing permissions, plagiarism concerns when source comparisons are available, appropriate attribution and conflicts of interest. Data and image manipulation need careful examination; a figure that looks similar is not proof of fabrication. Do not transmit non-public manuscripts to third-party plagiarism tools or databases without consent. Verify the venue's AI-disclosure and authorship policies rather than assuming universal rules.
