@@ -1,0 +1,15 @@
+{
+  "name": "embedded-firmware-reviewer",
+  "version": "2.0.0",
+  "platforms": [
+    "Hermes Agent",
+    "OpenCode"
+  ],
+  "target_scope": "multi-platform embedded MCU",
+  "autonomy": "read-only by default; explicit approval required for edits and physical actions",
+  "counts": {
+    "references": 11,
+    "templates": 6,
+    "examples": 3
+  }
+}

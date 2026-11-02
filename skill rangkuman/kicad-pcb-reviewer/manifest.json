@@ -1,0 +1,30 @@
+{
+  "name": "kicad-pcb-reviewer",
+  "version": "2.0.0",
+  "display_name": "PCB Design Reviewer",
+  "platforms": [
+    "Hermes Agent",
+    "OpenCode"
+  ],
+  "target_os": [
+    "Windows"
+  ],
+  "eda_scope": [
+    "KiCad",
+    "Altium Designer",
+    "EasyEDA Standard",
+    "EasyEDA Pro",
+    "Autodesk EAGLE",
+    "Fusion Electronics",
+    "other EDA with reliable exports"
+  ],
+  "audit_depth": "full engineering audit",
+  "autonomy": "read-only by default; explicit approval required for source edits, manufacturing release, supplier upload/order, and physical tests",
+  "counts": {
+    "references": 15,
+    "templates": 8,
+    "examples": 4
+  },
+  "entrypoint": "SKILL.md",
+  "validator": "scripts/Validate-Skill.ps1"
+}
